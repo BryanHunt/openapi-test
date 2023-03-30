@@ -1,0 +1,25 @@
+{
+  "name": "openapi-test",
+  "version": "0.1.0",
+  "author": "Bryan Hunt <bhunt@nvidia.com>",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "18.15.11",
+    "openapi3-ts": "4.0.2",
+    "typescript": "5.0.2"
+  },
+  "volta": {
+    "node": "18.15.0",
+    "yarn": "1.22.19"
+  },
+  "packageManager": "yarn@3.5.0"
+}
